@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-color: #23424A;
+    color: #FFFFFF;
+}
+
+
+.content {
+    width: 50%;
+    padding: 50px 100px 120px 100px;
+    max-width: 750px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+button {
+    padding: 1rem 3rem 0.9375rem 3rem;
+    color: black;
+    background-color: #38CFD9;
+    border: none;
+    border-radius: 2rem;
+
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.middle-section {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    max-width: max-content;
+}
+
+.middle-section .row .col {
+    width: 35%;
+    max-width: 750px;
+}
+
+.middle-section .col h2 {
+    color: rgb(141, 77, 141);
+}
+
+.bottom-section {
+    background: rgb(19, 94, 115);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+
+    padding: 50px 100px;
+    gap: 100px;
+}
+
+.bottom-section .col {
+    width: 50%;
+    max-width: 700px;
+}

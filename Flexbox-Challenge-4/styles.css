@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* To keep images responsive and full-resolution */
+img {
+    max-width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1128px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.section-one {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3EED9;
+    min-height: 400px;
+}
+
+.section-one p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.section-one__header {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+

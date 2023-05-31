@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    background-color: #23424A;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.content {
+    width: 50%;
+    padding: 148px 608px 147px 122px;
+    max-width: 700px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+button {
+    padding: 1rem 3rem 0.9375rem 3rem;
+    color: black;
+    background-color: #38CFD9;
+    border: none;
+    border-radius: 2rem;
+
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    font-family: inherit;
+    gap: 100px;
+}
